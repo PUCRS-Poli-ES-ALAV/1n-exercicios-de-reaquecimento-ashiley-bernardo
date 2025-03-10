@@ -1,30 +1,30 @@
-```markdown
-# Exercício de Programação e Análise de Algoritmos
+# Exercício de Re-aquecimento - Recursão
 
-## Objetivo
-Exercitar as competências de programação e análise de algoritmos.
+Vamos fazer alguns exercícios de programação, para re-lembrar algortimos recursivos. Além disto, é uma oportunidade para utilizarmos
+nosso ambiente de trabalho (Git-Github-Github classroom).
 
-## Enunciado
-Vamos utilizar o **GitHub** para apresentar o enunciado do exercício e para armazenar e compartilhar o trabalho desenvolvido.
 
-### Passos iniciais:
-1. Clique no link do **Exercício no GitHub Classroom**.
-2. Crie o seu time (seu par) e conecte o seu usuário e o do seu colega de par.
-3. A partir deste momento, vocês possuem um **repositório compartilhado** entre vocês e o professor.
-4. Desenvolvam o exercício e **mantenham o repositório atualizado**.
+1. Desenvolva algoritmos recursivos para os seguintes problemas e implemente-os (em Java, por exemplo):
+   1. Multiplicação de dois números naturais, através de somas sucessivas (Ex.: 6 ∗ 4 = 4 + 4 + 4 + 4 + 4 + 4).
+   1. Soma de dois números naturais, através de incrementos sucessivos (Ex.: 3 + 2 = + + (+ + + 1)).
+   1. Cálculo de 1 + 1/2 + 1/3 + 1/4 + ... + 1/N.
+   1. Inversão de uma string.
+   1. Gerador da sequência dada por:
+         * F(1) = 1
+         * F(2) = 2
+         * F(n) = 2 ∗ F(n − 1) + 3 ∗ F(n − 2).
+   1.  Gerador de Sequência de Ackerman:
+         * A(m, n) = n + 1, se m = 0
+         * A(m, n) = A(m − 1, 1), se m != 0 e n = 0
+         * A(m, n) = A(m − 1, A(m, n − 1)), se m != 0 e n != 0.
+   1. A partir de um vetor de números inteiros, calcule a soma e o produto dos elementos
+do vetor.
+   1. Verifique se uma palavra é palíndromo (Ex. aba, abcba, xyzzyx).
+   1. Dado um número n, gere todas as possíveis combinações com as n primeiras letras
+do alfabeto. Ex.: n = 3. Resposta: ABC, ACB, BAC, BCA, CAB, CBA.
+   1. Defina uma sequência de Fibonacci generalizada, de f0 a f1 como sequência
+fibg(f0, f1, 0), fibg(f0, f1, 1), fibg(f0, f1, 2), ..., onde:
+         * fibg(f0, f1, 0) = f0
+         * fibg(f0, f1, 1) = f1
+         * fibg(f0, f1, n) = fibg(f0, f1, n − 1) + fibg(f0, f1, n − 2), se n > 1.
 
-## Durante a aula:
-- Trabalhem em **pares** (prática de *Pair Programming*):  
-  - Utilizem **uma única máquina**, ambos trabalhando juntos.  
-  - Alternem os papéis de **piloto** e **co-piloto** a cada **15 minutos**.  
-  - Nos dividiremos em **salas paralelas no Zoom**.
-
-- Para realizar essa prática de forma distribuída:
-  - Alternem-se atualizando o código, usando o **GitHub** como ferramenta de compartilhamento.
-  - Utilizem uma **ferramenta de desenvolvimento compartilhado**, como o **VSCode**.
-
-- No final da aula, retornaremos para a **sessão principal**, onde discutiremos algumas soluções.
-
-## Após a aula:
-- Continuem o trabalho como uma **equipe distribuída**, usando o **repositório compartilhado**.
-- Os exercícios serão **revisados na próxima aula**.
